@@ -9,6 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet var notificationLabel: PillUILabel?
     override func viewDidLoad() {
         super.viewDidLoad()
     }
